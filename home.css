@@ -1,0 +1,86 @@
+body{
+	margin:0;
+    font-family: times;
+    font-size: 18px;
+    color:white;
+	background-image: linear-gradient(to top,whitesmoke,gainsboro);
+    text-align: center;
+    overflow: auto;
+}
+img{
+	max-width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+#mainNav.is-sticky {
+    background: white;
+}
+#mainNav.is-sticky a {
+  color:floralwhite;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	background-color:gray;
+	transition: background 0.4s;
+}
+nav ul li{
+    float: left;
+    width: 19%;
+	height: 8%;
+}
+nav ul li a{
+	transition: color 0.4s;
+	list-style: none;
+    font-weight: 700;
+    text-decoration: none;
+	font-size: 15px;
+    color: black;
+    display: block;
+    padding: 8% 18%;
+}
+nav ul li a:hover , nav ul li.home a{
+	list-style: none;
+    background-color: darkslategray;
+    color:gainsboro;
+}
+footer{
+    background-image: linear-gradient(to left,darkslategray,darkslategray); 
+    width=100%;
+    padding: 2% 0 4%;
+}
+.connect{
+    font-size: 400%;
+}
+.connect a{
+    color:gainsboro;
+    padding :3%;
+}
+.connect a:hover{
+    background-color: gainsboro;
+    color:darkslategray;
+}
+@media (max-width:768px){
+    nav ul li a{
+        padding: 8px 0;
+        font-size: 16px;
+    }
+	nav ul{
+        padding-left: 0;
+    }
+    nav ul li{
+        width: 100%;
+        border-left: 0;
+        border-radius: 0;
+    }
+	.connect{
+        font-size: 200%;
+    }
+}

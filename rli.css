@@ -1,0 +1,32 @@
+.left-col{
+    width:40%;
+    float:left;
+    padding: 1%;
+ }
+div h1{
+	font-size: 70px;
+	font-family: times;
+}
+.sidebar{
+    width:55%;
+    float:right;
+    padding:1%;
+	font-size: 20px;
+}
+.fontsize{
+	font-size: 20px;
+}
+@media (max-width:768px){
+	.left-col{
+		width: 100%;
+		padding: 0;
+	}
+	.sidebar{
+		width: 100%;
+		padding: 0;
+	}
+	div h1{
+		padding: 120px;
+		font-size: 50px;
+	}
+}
